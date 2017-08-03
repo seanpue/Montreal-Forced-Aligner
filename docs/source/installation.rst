@@ -62,7 +62,7 @@ not your default Python) and assume Linux in the commands.
 
 1. Get kaldi compiled and working: `Kaldi GitHub repository`_
 2. Download the source zip from the releases page
-3. Open a terminal and go to the unzipped folder (``cd /path/to/Montreal-Forced-Aligner/thirdparty``)
+3. Open a terminal and go to the unzipped folder (``cd /path/to/Montreal-Forced-Aligner``)
 4. Run the ``thirdparty/kaldibinaries.py`` script, pointing it to where Kaldi was built (``python thirdparty/kaldibinaries.py /path/to/kaldi/root``)
 5. Run ``pip install -r requirements.txt`` to install the requirements for the aligner
 6. Run the build script via ``freezing/freeze.sh``. There will now be a ``montreal-forced-aligner`` folder in the ``dist`` folder. This folder should contain a ``bin`` folder with the two executables ``mfa_align`` and ``mfa_train_and_align`` that should be used for alignment.
